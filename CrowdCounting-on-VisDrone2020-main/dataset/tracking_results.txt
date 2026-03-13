@@ -400,3 +400,277 @@ Device: NVIDIA GeForce GTX 1650
 +----+--------------+-------------+---------+
 
 Test con sequenza: img015 algoritmo: hcluster e bg_treshold: 0.75
+
+Test con sequenza: img011 algoritmo: hcluster e bg_treshold: 0.25
+
+Test con sequenza: img011 algoritmo: hcluster e bg_treshold: 0.25
+
+Test con sequenza: img011 algoritmo: hcluster e bg_treshold: 0.25
+Results for img011
+Clustering algorithm: hcluster
+Device: NVIDIA GeForce RTX 4060
++----+--------------+-------------+---------+
+|    |   mean (fps) |   std (fps) |     tmp |
+|----+--------------+-------------+---------|
+| 12 |      1.44592 |           0 | 8.29921 |
++----+--------------+-------------+---------+
+
+Test con sequenza: img011 algoritmo: hcluster e bg_treshold: 0.5
+Results for img011
+Clustering algorithm: hcluster
+Device: NVIDIA GeForce RTX 4060
++----+--------------+-------------+---------+
+|    |   mean (fps) |   std (fps) |     tmp |
+|----+--------------+-------------+---------|
+| 12 |      1.82495 |           0 | 6.57551 |
++----+--------------+-------------+---------+
+
+Test con sequenza: img011 algoritmo: hcluster e bg_treshold: 0.75
+Results for img011
+Clustering algorithm: hcluster
+Device: NVIDIA GeForce RTX 4060
++----+--------------+-------------+---------+
+|    |   mean (fps) |   std (fps) |     tmp |
+|----+--------------+-------------+---------|
+| 12 |      1.80231 |           0 | 6.65811 |
++----+--------------+-------------+---------+
+
+Test con sequenza: img011 algoritmo: hdbscan e bg_treshold: 0.25
+Results for img011
+Clustering algorithm: hdbscan
+Device: NVIDIA GeForce RTX 4060
++----+--------------+-------------+---------+
+|    |   mean (fps) |   std (fps) |     tmp |
+|----+--------------+-------------+---------|
+| 12 |      1.77474 |           0 | 6.76157 |
++----+--------------+-------------+---------+
+
+Test con sequenza: img011 algoritmo: hdbscan e bg_treshold: 0.5
+Results for img011
+Clustering algorithm: hdbscan
+Device: NVIDIA GeForce RTX 4060
++----+--------------+-------------+---------+
+|    |   mean (fps) |   std (fps) |     tmp |
+|----+--------------+-------------+---------|
+| 12 |       1.8421 |           0 | 6.51429 |
++----+--------------+-------------+---------+
+
+Test con sequenza: img011 algoritmo: hdbscan e bg_treshold: 0.75
+Results for img011
+Clustering algorithm: hdbscan
+Device: NVIDIA GeForce RTX 4060
++----+--------------+-------------+---------+
+|    |   mean (fps) |   std (fps) |     tmp |
+|----+--------------+-------------+---------|
+| 12 |      1.81638 |           0 | 6.60655 |
++----+--------------+-------------+---------+
+
+Test con sequenza: img011 algoritmo: meanshift e bg_treshold: 0.25
+Results for img011
+Clustering algorithm: meanshift
+Device: NVIDIA GeForce RTX 4060
++----+--------------+-------------+---------+
+|    |   mean (fps) |   std (fps) |     tmp |
+|----+--------------+-------------+---------|
+| 12 |      1.76194 |           0 | 6.81069 |
++----+--------------+-------------+---------+
+
+Test con sequenza: img011 algoritmo: meanshift e bg_treshold: 0.5
+Results for img011
+Clustering algorithm: meanshift
+Device: NVIDIA GeForce RTX 4060
++----+--------------+-------------+---------+
+|    |   mean (fps) |   std (fps) |     tmp |
+|----+--------------+-------------+---------|
+| 12 |      1.84681 |           0 | 6.49768 |
++----+--------------+-------------+---------+
+
+Test con sequenza: img011 algoritmo: meanshift e bg_treshold: 0.75
+Results for img011
+Clustering algorithm: meanshift
+Device: NVIDIA GeForce RTX 4060
++----+--------------+-------------+---------+
+|    |   mean (fps) |   std (fps) |     tmp |
+|----+--------------+-------------+---------|
+| 12 |      1.81916 |           0 | 6.59646 |
++----+--------------+-------------+---------+
+
+Test con sequenza: img015 algoritmo: hcluster e bg_treshold: 0.25
+Results for img015
+Clustering algorithm: hcluster
+Device: NVIDIA GeForce RTX 4060
++----+--------------+-------------+---------+
+|    |   mean (fps) |   std (fps) |     tmp |
+|----+--------------+-------------+---------|
+| 12 |      1.87767 |           0 | 6.39091 |
++----+--------------+-------------+---------+
+
+Test con sequenza: img015 algoritmo: hcluster e bg_treshold: 0.5
+Results for img015
+Clustering algorithm: hcluster
+Device: NVIDIA GeForce RTX 4060
++----+--------------+-------------+---------+
+|    |   mean (fps) |   std (fps) |     tmp |
+|----+--------------+-------------+---------|
+| 12 |      1.86534 |           0 | 6.43314 |
++----+--------------+-------------+---------+
+
+Test con sequenza: img015 algoritmo: hcluster e bg_treshold: 0.75
+Results for img015
+Clustering algorithm: hcluster
+Device: NVIDIA GeForce RTX 4060
++----+--------------+-------------+---------+
+|    |   mean (fps) |   std (fps) |     tmp |
+|----+--------------+-------------+---------|
+| 12 |       1.9199 |           0 | 6.25032 |
++----+--------------+-------------+---------+
+
+Test con sequenza: img015 algoritmo: hdbscan e bg_treshold: 0.25
+Results for img015
+Clustering algorithm: hdbscan
+Device: NVIDIA GeForce RTX 4060
++----+--------------+-------------+---------+
+|    |   mean (fps) |   std (fps) |     tmp |
+|----+--------------+-------------+---------|
+| 12 |      1.80952 |           0 | 6.63158 |
++----+--------------+-------------+---------+
+
+Test con sequenza: img015 algoritmo: hdbscan e bg_treshold: 0.5
+Results for img015
+Clustering algorithm: hdbscan
+Device: NVIDIA GeForce RTX 4060
++----+--------------+-------------+---------+
+|    |   mean (fps) |   std (fps) |     tmp |
+|----+--------------+-------------+---------|
+| 12 |      1.87731 |           0 | 6.39211 |
++----+--------------+-------------+---------+
+
+Test con sequenza: img015 algoritmo: hdbscan e bg_treshold: 0.75
+Results for img015
+Clustering algorithm: hdbscan
+Device: NVIDIA GeForce RTX 4060
++----+--------------+-------------+---------+
+|    |   mean (fps) |   std (fps) |     tmp |
+|----+--------------+-------------+---------|
+| 12 |      1.84676 |           0 | 6.49786 |
++----+--------------+-------------+---------+
+
+Test con sequenza: img015 algoritmo: meanshift e bg_treshold: 0.25
+Results for img015
+Clustering algorithm: meanshift
+Device: NVIDIA GeForce RTX 4060
++----+--------------+-------------+--------+
+|    |   mean (fps) |   std (fps) |    tmp |
+|----+--------------+-------------+--------|
+| 12 |      1.85483 |           0 | 6.4696 |
++----+--------------+-------------+--------+
+
+Test con sequenza: img015 algoritmo: meanshift e bg_treshold: 0.5
+Results for img015
+Clustering algorithm: meanshift
+Device: NVIDIA GeForce RTX 4060
++----+--------------+-------------+--------+
+|    |   mean (fps) |   std (fps) |    tmp |
+|----+--------------+-------------+--------|
+| 12 |      1.89567 |           0 | 6.3302 |
++----+--------------+-------------+--------+
+
+Test con sequenza: img015 algoritmo: meanshift e bg_treshold: 0.75
+Results for img015
+Clustering algorithm: meanshift
+Device: NVIDIA GeForce RTX 4060
++----+--------------+-------------+---------+
+|    |   mean (fps) |   std (fps) |     tmp |
+|----+--------------+-------------+---------|
+| 12 |      1.92105 |           0 | 6.24658 |
++----+--------------+-------------+---------+
+
+Test con sequenza: img016 algoritmo: hcluster e bg_treshold: 0.25
+Results for img016
+Clustering algorithm: hcluster
+Device: NVIDIA GeForce RTX 4060
++----+--------------+-------------+---------+
+|    |   mean (fps) |   std (fps) |     tmp |
+|----+--------------+-------------+---------|
+| 12 |      1.88311 |           0 | 6.37245 |
++----+--------------+-------------+---------+
+
+Test con sequenza: img016 algoritmo: hcluster e bg_treshold: 0.5
+Results for img016
+Clustering algorithm: hcluster
+Device: NVIDIA GeForce RTX 4060
++----+--------------+-------------+---------+
+|    |   mean (fps) |   std (fps) |     tmp |
+|----+--------------+-------------+---------|
+| 12 |       1.8816 |           0 | 6.37753 |
++----+--------------+-------------+---------+
+
+Test con sequenza: img016 algoritmo: hcluster e bg_treshold: 0.75
+Results for img016
+Clustering algorithm: hcluster
+Device: NVIDIA GeForce RTX 4060
++----+--------------+-------------+--------+
+|    |   mean (fps) |   std (fps) |    tmp |
+|----+--------------+-------------+--------|
+| 12 |      1.92089 |           0 | 6.2471 |
++----+--------------+-------------+--------+
+
+Test con sequenza: img016 algoritmo: hdbscan e bg_treshold: 0.25
+Results for img016
+Clustering algorithm: hdbscan
+Device: NVIDIA GeForce RTX 4060
++----+--------------+-------------+---------+
+|    |   mean (fps) |   std (fps) |     tmp |
+|----+--------------+-------------+---------|
+| 12 |      1.89211 |           0 | 6.34212 |
++----+--------------+-------------+---------+
+
+Test con sequenza: img016 algoritmo: hdbscan e bg_treshold: 0.5
+Results for img016
+Clustering algorithm: hdbscan
+Device: NVIDIA GeForce RTX 4060
++----+--------------+-------------+---------+
+|    |   mean (fps) |   std (fps) |     tmp |
+|----+--------------+-------------+---------|
+| 12 |      1.88748 |           0 | 6.35768 |
++----+--------------+-------------+---------+
+
+Test con sequenza: img016 algoritmo: hdbscan e bg_treshold: 0.75
+Results for img016
+Clustering algorithm: hdbscan
+Device: NVIDIA GeForce RTX 4060
++----+--------------+-------------+--------+
+|    |   mean (fps) |   std (fps) |    tmp |
+|----+--------------+-------------+--------|
+| 12 |      1.91638 |           0 | 6.2618 |
++----+--------------+-------------+--------+
+
+Test con sequenza: img016 algoritmo: meanshift e bg_treshold: 0.25
+Results for img016
+Clustering algorithm: meanshift
+Device: NVIDIA GeForce RTX 4060
++----+--------------+-------------+---------+
+|    |   mean (fps) |   std (fps) |     tmp |
+|----+--------------+-------------+---------|
+| 12 |      1.90826 |           0 | 6.28844 |
++----+--------------+-------------+---------+
+
+Test con sequenza: img016 algoritmo: meanshift e bg_treshold: 0.5
+Results for img016
+Clustering algorithm: meanshift
+Device: NVIDIA GeForce RTX 4060
++----+--------------+-------------+---------+
+|    |   mean (fps) |   std (fps) |     tmp |
+|----+--------------+-------------+---------|
+| 12 |       1.9228 |           0 | 6.24089 |
++----+--------------+-------------+---------+
+
+Test con sequenza: img016 algoritmo: meanshift e bg_treshold: 0.75
+Results for img016
+Clustering algorithm: meanshift
+Device: NVIDIA GeForce RTX 4060
++----+--------------+-------------+---------+
+|    |   mean (fps) |   std (fps) |     tmp |
+|----+--------------+-------------+---------|
+| 12 |       1.9377 |           0 | 6.19292 |
++----+--------------+-------------+---------+

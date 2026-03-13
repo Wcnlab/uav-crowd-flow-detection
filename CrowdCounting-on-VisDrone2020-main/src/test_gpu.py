@@ -684,9 +684,8 @@ def load_CC():
     cc = CrowdCounter([0], 'MobileCount')
 
     cc.load(
-        'C:\\Users\\seven\\Desktop\\Tesi Github\\MobileCount\\CrowdCounting-on-VisDrone2020-main\\exp\\09-02_17-32_VisDrone_MobileCount_0.001__1080x1920_CROWD_COUNTING_BS4\\all_ep_58_mae_23.9_rmse_30.0.pth')
+        'C:/Users/user/Downloads/uav_crowd_flow/uav-crowd-flow-detection/CrowdCounting-on-VisDrone2020-main/exp/09-02_17-32_VisDrone_MobileCount_0.001__1080x1920_CROWD_COUNTING_BS4/all_ep_58_mae_23.9_rmse_30.0.pth')
     return cc
-
 
 models = {'CC': load_CC}
 
@@ -697,7 +696,7 @@ if __name__ == '__main__':
     bs = literal_eval('[12]')
     in_size = literal_eval('(3, 1080, 1920)')
 
-    path = 'C:\\Users\\seven\\Desktop\\Tesi Github\\MobileCount\\CrowdCounting-on-VisDrone2020-main\\dataset\\test\\images\\'
+    path = '../dataset/test/images/'
 
     for sequence in os.listdir(path):
         sequence_path = path + sequence + "/"
@@ -706,12 +705,12 @@ if __name__ == '__main__':
             for bg_tresh in bg_tresh_list:
                 dataset = CustomDataset(sequence_path, in_size)
 
-                with open('C:\\Users\\seven\\Desktop\\Tesi Github\\MobileCount\\CrowdCounting-on-VisDrone2020-main\\dataset\\tracking_results.txt', 'a') as f:
+                with open('C:/Users/user/Downloads/uav_crowd_flow/uav-crowd-flow-detection/CrowdCounting-on-VisDrone2020-main/dataset/tracking_results.txt', 'a') as f:
                     f.write("\nTest con sequenza: " + sequence + " algoritmo: " + clust_alg + " e bg_treshold: " + str(
                         bg_tresh) + "\n")
 
                 print("Test con sequenza: " + sequence)
                 print('Model is loaded, start forwarding.')
-                benchmarker = Benchmarker(model, dataset, bs, 'C:\\Users\\seven\\Desktop\\Tesi Github\\MobileCount\\CrowdCounting-on-VisDrone2020-main\\dataset\\tracking_results.txt', 2,
+                benchmarker = Benchmarker(model, dataset, bs, 'C:/Users/user/Downloads/uav_crowd_flow/uav-crowd-flow-detection/CrowdCounting-on-VisDrone2020-main/dataset/tracking_results.txt', 2,
                                           sequence, clust_alg)
                 benchmarker.bench_tracking(1, 0, bg_tresh, clust_alg)

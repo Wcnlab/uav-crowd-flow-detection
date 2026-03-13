@@ -12,7 +12,7 @@ __C.VAL_BATCH_SIZE = 6
 __C.TEST_BATCH_SIZE = 6
 __C.N_WORKERS = 6
 
-__C.PRE_TRAINED = 'C:\\Users\\seven\\Desktop\\Tesi Github\\MobileCount\\CrowdCounting-on-VisDrone2020-main\\exp\\09-02_17-32_VisDrone_MobileCount_0.001__1080x1920_CROWD_COUNTING_BS4\\all_ep_58_mae_23.9_rmse_30.0.pth'
+__C.PRE_TRAINED = '../exp/09-02_17-32_VisDrone_MobileCount_0.001__1080x1920_CROWD_COUNTING_BS4/all_ep_58_mae_23.9_rmse_30.0.pth'
 
 # path settings
 __C.EXP_PATH = '/content/drive/MyDrive/MobileCount/CrowdCounting-on-VisDrone2020-main/exp'
