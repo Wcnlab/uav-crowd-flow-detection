@@ -59,7 +59,6 @@ def run_transforms(mean, std, size):
         torchvision.transforms.Resize(size)
     ])
 
-# --- 3. 程式啟動入口 ---
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--path', type=str, required=True)
@@ -68,14 +67,13 @@ if __name__ == '__main__':
 
     print(f"--- 開始處理資料夾: {args.path} ---")
 
-    # 載入模型 (使用我們之前試成功的相對路徑)
+    # 💡 確保這裡的 def 與上面的 print 是垂直對齊的
     def my_model_loader():
-        cc = CrowdCounter(gpus='0', model_name='MobileCount')
-        path = '../exp/09-02_17-32_VisDrone_MobileCount_0.001__1080x1920_CROWD_COUNTING_BS4/all_ep_58_mae_23.9_rmse_30.0.pth'
-        cc.load(path)
+        cc = CrowdCounter(gpus='0', model_name=cfg.NET) 
+        cc.load(cfg.PRE_TRAINED)
         return cc
 
-    # 設定圖片轉換參數 (依照 config.py 的標準設定)
+    # 💡 這裡的 transform 也必須與上面的 def 對齊
     transform = run_transforms(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225], size=(1080, 1920))
     
     # 建立資料集

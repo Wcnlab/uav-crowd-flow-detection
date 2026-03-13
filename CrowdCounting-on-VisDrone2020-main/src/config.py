@@ -1,10 +1,14 @@
 from easydict import EasyDict
 import time
+import os
 
 __C = EasyDict()
 cfg = __C
 
-__C.SEED = 3035  # random seed
+# --- 💡 新增：自動獲取專案根目錄 (即 src 的上一層) ---
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+__C.SEED = 3035  
 
 # System settings
 __C.TRAIN_BATCH_SIZE = 2
@@ -12,10 +16,12 @@ __C.VAL_BATCH_SIZE = 6
 __C.TEST_BATCH_SIZE = 6
 __C.N_WORKERS = 6
 
-__C.PRE_TRAINED = '../exp/09-02_17-32_VisDrone_MobileCount_0.001__1080x1920_CROWD_COUNTING_BS4/all_ep_58_mae_23.9_rmse_30.0.pth'
+# --- 💡 修改：使用 os.path.join 組合路徑，確保 Windows/Linux 通用 ---
+__C.PRE_TRAINED = os.path.join(BASE_DIR, 'exp', '09-02_17-32_VisDrone_MobileCount_0.001__1080x1920_CROWD_COUNTING_BS4', 'all_ep_58_mae_23.9_rmse_30.0.pth')
 
 # path settings
-__C.EXP_PATH = '/content/drive/MyDrive/MobileCount/CrowdCounting-on-VisDrone2020-main/exp'
+# --- 💡 修改：將原本的 Colab 絕對路徑改為自動生成的相對路徑 ---
+__C.EXP_PATH = os.path.join(BASE_DIR, 'exp')
 __C.DATASET = 'VisDrone'
 __C.NET = 'MobileCount'
 __C.DETAILS = '_1080x1920_CROWD_COUNTING_BS4'
